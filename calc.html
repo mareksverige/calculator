@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css" type="text/css">
+    <script src="calc.js"></script>
+</head>
+<body>
+        <div class="window">
+        <p id="view">0</p>
+        </div>
+        
+        <div class="1_row">
+            <button id="r1-1"  onclick="clearview()"style="width:104px">C</button>
+            <button id="r1-2"  onclick="solve()"style="width:104px">=</button> 
+        </div>
+        <div class="2_row">
+            <button id="r2-1"  onclick="forview('7')">7</button>
+            <button id="r2-2"  onclick="forview('8')">8</button>
+            <button id="r2-3"  onclick="forview('9')">9</button>
+            <button id="r2-4"  onclick="forview('+')">+</button>
+        </div>
+        <div class="3_row">
+            <button id="r3-1"  onclick="forview('4')">4</button>
+            <button id="r3-2"  onclick="forview('5')">5</button> 
+            <button id="r3-3"  onclick="forview('6')">6</button>
+            <button id="r3-4"  onclick="forview('-')">-</button>
+        </div>
+        <div class="4_row">
+            <button id="r4-1"  onclick="forview('1')">1</button>
+            <button id="r4-2"  onclick="forview('2')">2</button>
+            <button id="r4-3"  onclick="forview('3')">3</button>
+            <button id="r4-4"  onclick="forview('*')">x</button> 
+        </div>
+        <div class="5_row">
+            <button id="r5-1"  onclick="percen()">%</button>
+            <button id="r5-2"  onclick="forview('0')">0</button>
+            <button id="r5-3"  onclick="forview('.')">.</button>  
+            <button id="r5-4"  onclick="forview('/')">/</button>
+            
+        </div>            
+</body>
+</html>

@@ -1,0 +1,39 @@
+.window
+{
+    background-color: rgb(89, 142, 192);
+    width: 183px;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color:rgb(89, 142, 192);
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+html
+{
+    font-family:'Franklin Gothic Medium';
+}
+button:hover{
+    background-color:rgb(19, 84, 144);
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(19, 84, 144);
+}
+button:focus{
+    outline: none;
+}
